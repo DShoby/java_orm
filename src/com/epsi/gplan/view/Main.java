@@ -1,4 +1,4 @@
-package com.epsi.gplan.com.epsi.gplan.view;
+package com.epsi.gplan.view;
 
 public class Main {
 

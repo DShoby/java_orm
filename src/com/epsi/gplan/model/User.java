@@ -9,12 +9,22 @@ public class User {
     private String mail;
     private boolean admin;
 
-    public User(String login, String passwd, String nom, String prenom, String mail) {
+
+    public User(String login, String passwd, String nom, String prenom, String mail, boolean admin) {
         this.login = login;
         this.passwd = passwd;
         this.nom = nom;
         this.prenom = prenom;
         this.mail = mail;
+        this.admin = admin;
+    }
+
+    public boolean getAdmin() {
+        return admin;
+    }
+
+    public void setAdmin(boolean admin) {
+        this.admin = admin;
     }
 
     public String getLogin() {
@@ -57,11 +67,5 @@ public class User {
         this.mail = mail;
     }
 
-    public String getAdmin() {
-        return mail;
-    }
 
-    public void setAdmin(boolean admin) {
-        this.admin = admin;
-    }
 }
