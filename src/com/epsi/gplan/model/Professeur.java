@@ -7,7 +7,7 @@ public class Professeur extends User{
 
     private Collection<Matiere> sesMatieres;
 
-    public Professeur(String login, String passwd, String nom, String prenom, String mail,Boolean admin) {
+    public Professeur(String login, String passwd, String nom, String prenom, String mail,boolean admin) {
         super(login, passwd, nom, prenom, mail,admin);
         sesMatieres = new ArrayList<>();
     }
