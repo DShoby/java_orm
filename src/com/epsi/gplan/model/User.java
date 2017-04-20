@@ -9,12 +9,13 @@ public class User {
     private String mail;
     private boolean admin;
 
-    public User(String login, String passwd, String nom, String prenom, String mail) {
+    public User(String login, String passwd, String nom, String prenom, String mail,boolean admin) {
         this.login = login;
         this.passwd = passwd;
         this.nom = nom;
         this.prenom = prenom;
         this.mail = mail;
+        this.admin = admin;
     }
 
     public String getLogin() {
