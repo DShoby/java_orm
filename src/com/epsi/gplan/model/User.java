@@ -7,6 +7,7 @@ public class User {
     private String nom;
     private String prenom;
     private String mail;
+    private boolean admin;
 
     public User(String login, String passwd, String nom, String prenom, String mail) {
         this.login = login;
@@ -54,5 +55,13 @@ public class User {
 
     public void setMail(String mail) {
         this.mail = mail;
+    }
+
+    public String getAdmin() {
+        return mail;
+    }
+
+    public void setAdmin(boolean admin) {
+        this.admin = admin;
     }
 }
