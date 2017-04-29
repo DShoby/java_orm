@@ -1,11 +1,14 @@
 package com.epsi.gplan.view;
 
+import com.epsi.gplan.service.UserService;
+import com.epsi.gplan.database.Connect;
 import com.epsi.gplan.model.User;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.Connection;
 
 public class IHM_Connexion implements ActionListener{
 
